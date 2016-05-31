@@ -1,0 +1,21 @@
+Using the system like I have used here by having git bash to be seperate from the command line in windows will help me make sure that any programming changes that I make and check can be done directley in this window completely seperate from the windows command line.
+
+diff = linux and git bash and mac version
+fc = windows file checking
+
+when you are adding a new version of a file you can use version control in git by using a COMMIT these then can be accessed in git bash by going to the directory were the code is saved and typing "git log"  you get a list of commits then with a code.  You can then check the difference by the long id e.g. "git diff ID ID".  You will also type a message telling the checker what the commit changed.
+
+You can track these changes over multiple files which are stored in a repository which are all saved everytime you make a commit.
+
+if you want to edit the text and see the code in different colours then you need to run the command
+
+git config --global color.ui auto
+
+this shows colour coded code for what has been added etc
+
+As you can see now you can use git log to brows through the history of commits and then you git diff to view the difference between the 2 file.  
+you can use the command 
+
+git checkout "COMMENT ID"
+
+To revert back to the old version of a peice of code to see how that worked. Using version control in this way can help you in experimenting with certain code so that you can check and then go back

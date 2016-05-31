@@ -1,0 +1,44 @@
+To create a git repository you use the command
+
+git init
+
+this creates an initial repository with no files added you can 
+check the status of a git repository using the command
+
+git status
+
+then in the empty git you can add files by
+
+git add "FILE NAME"
+
+once the files have been added they are put into a staging area.  You can then check these out again using the 
+
+git status
+
+This should show any files you have added to the stagign area.  To actually put the command
+
+git commit
+
+this will then commit the files into the staging area and the staging area and commiting the changes you will have to enter a comment into the working directory and the comment
+
+------------------
+
+When dealing with branching you can you the command
+
+git branch
+
+this will tell you the name of the branch you are currently on and also the names of the other branches.  You can then you the command
+
+git branch NAME_OF_BRANCH
+
+to create a new branch.  You can then use the command 
+
+git checkout NAME_OF_BRANCH
+
+to checkout another branch or the branch you have just created.
+
+any changes you commit will be associated with this branch
+
+Then if you would like to merge the branches you can use the command
+
+git merge NAME_OF_BRANCH_1 NAME_OF_BRANCH_2
